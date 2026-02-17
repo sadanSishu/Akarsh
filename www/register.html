@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Tracker</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <section id="navbar">
+    <p>Attendance tracker</p>
+
+    <nav>                                                                                                                                     
+        <ul id="nav">
+          <li>
+            <a href="./index.html">home</a>
+          </li>
+          <li>
+            <a href="./register.html">Register a student</a>
+          </li>
+        </ul>
+
+    </nav>
+   </section> 
+   <h1>Register a student</h1>
+   <form onsubmit="registerStudent(event)">
+   <div>
+    <label>name</label>
+    <input type="text" name="name">
+   </div><br> <br>
+   <div>
+    <label>Roll No</label>
+    <input type="number" name="rollNo">
+   </div> <br> <br>
+   <div>
+    <label>contact number</label>
+    <input type="number"name="contactNumber">
+   </div> <br> <br>
+   <div>
+    <label>Address</label>
+    <input type="text" name="address">
+   </div>
+    <div>
+      <p>gender</p>
+      <input type="radio"name="gender" value="Male">Male <br>
+      <input type="radio"name="gender" value="Female"> Female <br>
+    </div>
+    <button>Register</button>
+
+   </form>
+
+
+
+
+
+   <script src="./script.js"></script>
+</body>
+</html>
